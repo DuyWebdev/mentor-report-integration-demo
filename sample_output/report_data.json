@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "snapshot": "sample_data",
+    "snapshot_started_at": "2026-10-09T00:00:00Z",
+    "snapshot_finished_at": "2026-10-09T00:00:01Z",
+    "generated_at": "2026-10-09T10:04:07.212741+00:00",
+    "mentor_session": "SYNTHETIC OFFLINE DEMO",
+    "scope": {
+      "task_id": 1001,
+      "repo": "demo/annotation-tracker",
+      "cvat_host": "https://example.com",
+      "org": ""
+    },
+    "warnings": [
+      "C\u00e2u h\u1ecfi #3 ch\u01b0a c\u00f3 tham chi\u1ebfu task/job \u0111\u01b0\u1ee3c x\u00e1c minh; c\u00f3 th\u1ec3 l\u00e0 c\u00e2u h\u1ecfi chung c\u1ee7a repo."
+    ],
+    "excluded_issues": [
+      {
+        "number": 1,
+        "reason": "api_test"
+      },
+      {
+        "number": 4,
+        "reason": "other_task",
+        "task_id": 9999
+      }
+    ]
+  },
+  "batch_progress": {
+    "status": "available",
+    "task_id": 1001,
+    "task_name": "SYNTHETIC DEMO",
+    "total_frames": 20,
+    "jobs": [
+      {
+        "job_id": 2001,
+        "type": "annotation",
+        "stage": "annotation",
+        "state": "completed",
+        "assignee": null,
+        "frame_count": 10,
+        "source_url": "https://example.com/tasks/1001/jobs/2001"
+      },
+      {
+        "job_id": 2002,
+        "type": "annotation",
+        "stage": "annotation",
+        "state": "in progress",
+        "assignee": null,
+        "frame_count": 10,
+        "source_url": "https://example.com/tasks/1001/jobs/2002"
+      },
+      {
+        "job_id": 2003,
+        "type": "ground_truth",
+        "stage": "acceptance",
+        "state": "completed",
+        "assignee": null,
+        "frame_count": 1,
+        "source_url": "https://example.com/tasks/1001/jobs/2003"
+      }
+    ],
+    "jobs_by_stage": {
+      "annotation": 2,
+      "acceptance": 1
+    },
+    "jobs_by_state": {
+      "completed": 2,
+      "in progress": 1
+    },
+    "annotation_job_count": 2,
+    "completed_annotation_job_count": 1,
+    "completed_annotation_job_percent": 50.0,
+    "completed_frames": null,
+    "completion_percent": null,
+    "note": "Ch\u01b0a suy ra ti\u1ebfn \u0111\u1ed9 frame ho\u1eb7c nghi\u1ec7m thu t\u1eeb tr\u1ea1ng th\u00e1i job."
+  },
+  "scores": {
+    "status": "unavailable",
+    "value": null,
+    "method": null,
+    "source_url": null,
+    "scored_at": null,
+    "reason": "Ch\u01b0a th\u1ed1ng nh\u1ea5t ngu\u1ed3n \u0111i\u1ec3m v\u00e0 quy t\u1eafc ch\u1ea5m QA/QC."
+  },
+  "annotations": {
+    "status": "available",
+    "jobs": [
+      {
+        "job_id": 2001,
+        "status": "success",
+        "counts": {
+          "shapes": 3,
+          "tracks": 0,
+          "tags": 1,
+          "track_shape_records": 0
+        }
+      },
+      {
+        "job_id": 2002,
+        "status": "success",
+        "counts": {
+          "shapes": 0,
+          "tracks": 1,
+          "tags": 0,
+          "track_shape_records": 2
+        }
+      },
+      {
+        "job_id": 2003,
+        "status": "success",
+        "counts": {
+          "shapes": 0,
+          "tracks": 0,
+          "tags": 0,
+          "track_shape_records": 0
+        }
+      }
+    ],
+    "totals": {
+      "shapes": 3,
+      "tracks": 1,
+      "tags": 1,
+      "track_shape_records": 2
+    },
+    "by_label": [
+      {
+        "label_id": 1,
+        "label_name": "vehicle",
+        "shapes": 3,
+        "tracks": 1,
+        "tags": 1
+      }
+    ],
+    "note": "\u0110\u1ebfm b\u1ea3n ghi API theo job, kh\u00f4ng n\u1ed9i suy track. Kh\u00f4ng ph\u1ea3i s\u1ed1 frame ho\u00e0n th\u00e0nh ho\u1eb7c s\u1ed1 \u0111\u1ed1i t\u01b0\u1ee3ng duy nh\u1ea5t to\u00e0n task."
+  },
+  "edge_cases": {
+    "status": "available",
+    "items": [
+      {
+        "number": 2,
+        "title": "DEMO: occluded vehicle",
+        "description": "Synthetic example only.\nCVAT task ID: 1001\nCVAT job ID: 2002\nHow should the team annotate an occluded vehicle?",
+        "labels": [
+          "ca-kho"
+        ],
+        "source_url": "https://example.com/issues/2",
+        "state": "open",
+        "author": "demo-user",
+        "updated_at": "2026-10-09T00:00:00Z",
+        "task_id": 1001,
+        "job_id": 2002,
+        "link_status": "verified",
+        "cvat_job_url": "https://example.com/tasks/1001/jobs/2002",
+        "frame": null
+      }
+    ]
+  },
+  "open_questions": {
+    "status": "available",
+    "items": [
+      {
+        "number": 3,
+        "title": "DEMO: guideline question",
+        "description": "Synthetic general question: which guideline version should we use?",
+        "labels": [
+          "mentor-question"
+        ],
+        "source_url": "https://example.com/issues/3",
+        "state": "open",
+        "author": "demo-user",
+        "updated_at": "2026-10-09T00:00:00Z",
+        "task_id": null,
+        "job_id": null,
+        "link_status": "unlinked",
+        "cvat_job_url": null,
+        "frame": null
+      }
+    ]
+  }
+}

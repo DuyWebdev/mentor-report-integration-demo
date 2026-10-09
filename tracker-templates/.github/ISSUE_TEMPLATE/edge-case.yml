@@ -1,0 +1,28 @@
+name: Ca khó gán nhãn
+description: Ghi nhận ca cần nhóm hoặc mentor thảo luận
+title: "[Ca khó] "
+labels: [ca-kho]
+body:
+  - type: textarea
+    id: references
+    attributes:
+      label: Tham chiếu CVAT
+      description: Thay ID bằng số thật; giữ nguyên tên hai dòng để pipeline đọc được.
+      value: |
+        CVAT task ID:
+        CVAT job ID:
+        CVAT URL:
+        Frame index (nếu có):
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Vấn đề cần thảo luận
+      description: Mô tả điều quan sát được và chỗ chưa rõ guideline.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Phương án của nhóm (nếu có)

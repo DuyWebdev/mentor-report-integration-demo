@@ -1,0 +1,77 @@
+{
+  "issues": [
+    {
+      "number": 1,
+      "title": "[API test] excluded",
+      "body": "Test only",
+      "state": "open",
+      "html_url": "https://example.com/issues/1",
+      "labels": [
+        {
+          "name": "ca-kho"
+        }
+      ],
+      "user": {
+        "login": "demo-user"
+      },
+      "updated_at": "2026-10-09T00:00:00Z"
+    },
+    {
+      "number": 2,
+      "title": "DEMO: occluded vehicle",
+      "body": "Synthetic example only.\nCVAT task ID: 1001\nCVAT job ID: 2002\nHow should the team annotate an occluded vehicle?",
+      "state": "open",
+      "html_url": "https://example.com/issues/2",
+      "labels": [
+        {
+          "name": "ca-kho"
+        }
+      ],
+      "user": {
+        "login": "demo-user"
+      },
+      "updated_at": "2026-10-09T00:00:00Z"
+    },
+    {
+      "number": 3,
+      "title": "DEMO: guideline question",
+      "body": "Synthetic general question: which guideline version should we use?",
+      "state": "open",
+      "html_url": "https://example.com/issues/3",
+      "labels": [
+        {
+          "name": "mentor-question"
+        }
+      ],
+      "user": {
+        "login": "demo-user"
+      },
+      "updated_at": "2026-10-09T00:00:00Z"
+    },
+    {
+      "number": 4,
+      "title": "DEMO: different task",
+      "body": "CVAT task ID: 9999\nCVAT job ID: 9998",
+      "state": "open",
+      "html_url": "https://example.com/issues/4",
+      "labels": [
+        {
+          "name": "mentor-question"
+        }
+      ],
+      "user": {
+        "login": "demo-user"
+      },
+      "updated_at": "2026-10-09T00:00:00Z"
+    }
+  ],
+  "labels": [
+    {
+      "name": "ca-kho"
+    },
+    {
+      "name": "mentor-question"
+    }
+  ],
+  "comments": []
+}

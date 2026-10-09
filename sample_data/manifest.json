@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "fixture": true,
+  "started_at": "2026-10-09T00:00:00Z",
+  "finished_at": "2026-10-09T00:00:01Z",
+  "scope": {
+    "task_id": 1001,
+    "repo": "demo/annotation-tracker",
+    "cvat_host": "https://example.com",
+    "org": ""
+  },
+  "sources": {
+    "cvat": {
+      "status": "success",
+      "annotations": {
+        "successful_jobs": 3,
+        "failed_jobs": 0
+      }
+    },
+    "github": {
+      "status": "success"
+    }
+  }
+}

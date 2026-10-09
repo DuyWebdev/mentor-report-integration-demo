@@ -1,0 +1,25 @@
+name: Câu hỏi cho mentor
+description: Ghi câu hỏi mở trước phiên mentor
+title: "[Mentor] "
+labels: [mentor-question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Câu hỏi
+      description: Nêu câu hỏi cần mentor giải đáp.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Bối cảnh và phương án (nếu có)
+  - type: textarea
+    id: references
+    attributes:
+      label: Tham chiếu CVAT (nếu liên quan)
+      description: Có thể bỏ trống cho câu hỏi không liên quan task/job. Nếu điền, giữ đúng tên dòng.
+      placeholder: |
+        CVAT task ID: 2592622
+        CVAT job ID: 4475446
+        CVAT URL: https://app.cvat.ai/tasks/2592622/jobs/4475446

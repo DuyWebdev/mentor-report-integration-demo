@@ -1,0 +1,24 @@
+[
+  {
+    "github_issue": 1,
+    "status": "unlinked"
+  },
+  {
+    "github_issue": 2,
+    "status": "verified",
+    "cvat_task_id": 1001,
+    "cvat_job_id": 2002,
+    "actual_cvat_task_id": 1001
+  },
+  {
+    "github_issue": 3,
+    "status": "unlinked"
+  },
+  {
+    "github_issue": 4,
+    "status": "verified",
+    "cvat_task_id": 9999,
+    "cvat_job_id": 9998,
+    "actual_cvat_task_id": 9999
+  }
+]

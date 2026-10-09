@@ -1,0 +1,142 @@
+{
+  "task": {
+    "id": 1001,
+    "name": "SYNTHETIC DEMO",
+    "size": 20
+  },
+  "jobs": [
+    {
+      "id": 2001,
+      "task_id": 1001,
+      "type": "annotation",
+      "stage": "annotation",
+      "state": "completed",
+      "frame_count": 10
+    },
+    {
+      "id": 2002,
+      "task_id": 1001,
+      "type": "annotation",
+      "stage": "annotation",
+      "state": "in progress",
+      "frame_count": 10
+    },
+    {
+      "id": 2003,
+      "task_id": 1001,
+      "type": "ground_truth",
+      "stage": "acceptance",
+      "state": "completed",
+      "frame_count": 1
+    }
+  ],
+  "labels": [
+    {
+      "id": 1,
+      "name": "vehicle"
+    }
+  ],
+  "issues": [],
+  "comments": [],
+  "annotations": [
+    {
+      "job_id": 2001,
+      "status": "success",
+      "data": {
+        "version": 1,
+        "shapes": [
+          {
+            "id": 1,
+            "label_id": 1,
+            "frame": 1,
+            "type": "rectangle",
+            "points": [
+              1,
+              2,
+              10,
+              20
+            ]
+          },
+          {
+            "id": 2,
+            "label_id": 1,
+            "frame": 2,
+            "type": "rectangle",
+            "points": [
+              1,
+              2,
+              10,
+              20
+            ]
+          },
+          {
+            "id": 3,
+            "label_id": 1,
+            "frame": 3,
+            "type": "rectangle",
+            "points": [
+              1,
+              2,
+              10,
+              20
+            ]
+          }
+        ],
+        "tracks": [],
+        "tags": [
+          {
+            "id": 9,
+            "label_id": 1,
+            "frame": 0
+          }
+        ]
+      }
+    },
+    {
+      "job_id": 2002,
+      "status": "success",
+      "data": {
+        "version": 1,
+        "shapes": [],
+        "tags": [],
+        "tracks": [
+          {
+            "id": 10,
+            "label_id": 1,
+            "shapes": [
+              {
+                "frame": 10,
+                "type": "rectangle",
+                "points": [
+                  1,
+                  2,
+                  10,
+                  20
+                ]
+              },
+              {
+                "frame": 19,
+                "type": "rectangle",
+                "points": [
+                  2,
+                  3,
+                  11,
+                  21
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "job_id": 2003,
+      "status": "success",
+      "data": {
+        "shapes": [],
+        "tracks": [],
+        "tags": []
+      }
+    }
+  ]
+}
